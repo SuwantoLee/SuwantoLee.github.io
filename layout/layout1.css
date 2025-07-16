@@ -1,0 +1,568 @@
+/*reset dasar*/
+body {
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #b3b8ff;
+  font-size: 16px;
+}
+
+/* h1= 70px, h2= 40px, h3=32px font-size-normal=16px*/
+
+/*container seluruh elemen*/
+.containerAll {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-color: #002f71;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px;
+}
+
+/* atur link logo */
+.logo-ucm {
+  margin: 10px 0 0 10px;
+  padding: 10px;
+  width: 250px;
+}
+
+/* Container navigasi dan logo */
+.nav-container {
+  display: block;
+  height: 140px;
+  background-color: #0a0755;
+  justify-content: baseline;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 0px;
+}
+/*tombol navigasi*/
+.nav {
+  list-style: none;
+  padding: 10px;
+  padding-right: 10px;
+  margin: -70px 10px 0 0;
+  display: flex;
+  justify-content: right;
+  gap: 20px;
+}
+.nav li {
+  display: inline-flex;
+}
+
+.nav li a {
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 3px;
+}
+.nav a:hover {
+  background-color: #437899;
+  color: #606060;
+  border-radius: 5px;
+}
+
+/*halaman home*/
+.judulPage {
+  background-image: url(../image/gedungUCM60%.png);
+  background-size: cover;
+  background-position: 0 -250px;
+  background-repeat: no-repeat;
+  height: 820px;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.judulPage h1 {
+  margin-top: 330px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-weight: bolder;
+  color: #020048;
+  font-size: 70px;
+}
+
+.head2 {
+  display: block;
+  font-weight: bold;
+  margin: 100px auto;
+  color: #020048;
+  font-size: 70px;
+  text-align: center;
+}
+
+.head3 {
+  margin: 100px auto 50px;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #020048;
+}
+
+.afiliasi {
+  display: inline-grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  max-width: 880px;
+  margin: 10px 100px 30px 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.afiliasi img {
+  width: 65%;
+  height: auto;
+  object-fit: cover;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+/*prodi*/
+
+.prodiJudul {
+  background-image: url(../image/prodihome70%.png);
+  background-size: cover;
+  background-position: 0 -250px;
+  background-repeat: no-repeat;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.prodiJudul .head2 {
+  margin-top: 300px;
+}
+
+.prodiContainer ul {
+  display: grid;
+  margin: 0 20px 50px 10x;
+  padding-left: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat (2, auto);
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.prodiContainer li a img {
+  width: 88%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.prodiContainer ul li a {
+  color: #020048;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bolder;
+}
+
+.prodiContainer ul li a p {
+  text-align: center;
+}
+
+.prodiContainer ul li {
+  list-style-type: none;
+}
+
+/*tampilam tiap prodi*/
+
+.containerIsi {
+  display: block;
+  margin: 30px 100px 100px;
+  padding: 30px;
+  color: #020048;
+  line-height: 28px;
+  border: #0a0755 1px solid;
+  border-radius: 8px;
+}
+
+.containerIsi h2 {
+  font-size: 70px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.containerIsi h3 {
+  margin: 70px auto;
+  font-size: 32px;
+  text-align: center;
+}
+
+.containerIsi p {
+  margin: 30px 50px 50px 50px;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 28px;
+}
+
+.containerIsi ol {
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 100px;
+}
+
+.containerIsi .gallery img {
+  width: 50%;
+  height: 300px;
+  object-fit: cover;
+  float: inline-start;
+}
+
+.containerIsi ol li {
+  margin-bottom: 16px;
+  text-align: justify;
+  line-height: 40px;
+}
+
+/*tampilan fasilitas*/
+
+.gambarFasilitas ul {
+  margin-left: -20px;
+  margin-top: 10px;
+  margin-right: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat (10, auto);
+  margin-bottom: 100px;
+}
+
+.fasilitasImage {
+  margin-top: 0;
+  background-image: url(../image/lobby70%.png);
+  background-size: cover;
+  height: 600px;
+  background-position: 0 -300px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  margin-bottom: 100px;
+}
+.fasilitasImage .head2 {
+  margin-top: 140px;
+}
+
+.textFasilitas {
+  margin: 0 100px 100px;
+  font-size: 24px;
+  text-align: justify;
+  font-weight: bolder;
+  color: #020048;
+  margin: 0 100px 50px;
+}
+
+.gambarFasilitas li {
+  justify-content: center;
+  color: #020048;
+  font-size: 16px;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.gambarFasilitas img {
+  width: 90%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/*event*/
+
+.event {
+  margin-top: 0;
+  background-image: url(../image/eventlogo70%.png);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: 0 -200px;
+  background-size: cover;
+  color: #020048;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.event .head2 {
+  margin-top: 140px;
+}
+.gambarEvent {
+  width: 1160px;
+}
+.gambarEvent ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat (3, auto);
+  gap: 50px;
+}
+
+.gambarEvent img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.gambarEvent li {
+  list-style-type: none;
+  padding: 20px;
+}
+
+.gambarEvent .waktuEvent p {
+  text-align: center;
+  color: #020048;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+/*about us*/
+
+.logoUCM1 {
+  background-image: url(../image/UCM-LOGO30%.png);
+  margin: 0 10px 40px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1000px;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+.logoUCM1 p {
+  color: #020048;
+  font-size: 16px;
+  font-weight: bolder;
+  line-height: 28px;
+  display: block;
+  margin: 0 150px;
+  text-align: justify;
+  justify-content: center;
+}
+
+.logoUCM1 h2 {
+  margin: 70px;
+  padding-top: 50px;
+  font-size: 36px;
+  text-align: center;
+  color: #020048;
+}
+
+.logoUCM1 h3 {
+  font-size: 32px;
+  color: #020048;
+  text-align: center;
+}
+
+.logoUCM1 ol {
+  line-height: 28px;
+  margin: 0 150px;
+  list-style-position: outside;
+  text-align: justify;
+  justify-content: center;
+}
+
+.logoUCM1 li {
+  color: #020048;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+/*contact*/
+
+.kontakbox {
+  background-image: url(../image/contactus2-70%.png);
+  background-size: cover;
+  background-position: 0 -70px;
+  background-repeat: no-repeat;
+  height: 780px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.kontakbox .head2 {
+  margin-top: 350px;
+}
+
+.info {
+  width: 450px;
+  align-items: center;
+}
+
+.info .head3 {
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.info .location img {
+  margin-top: relative;
+  margin-left: 50px;
+  margin-right: 10px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+.info .call img {
+  margin-top: relative;
+  margin-left: 50px;
+  margin-right: 10px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+.info .call p {
+  padding-top: 15px;
+}
+
+.info p {
+  color: #020048;
+}
+
+.map img {
+  display: flex;
+  width: 300px;
+  height: 280px;
+  overflow: hidden;
+  float: right;
+  margin-bottom: 50px;
+  margin-right: 40px;
+}
+
+/*footer*/
+footer {
+  display: block;
+  background-color: #0a0755;
+  padding: 20px;
+}
+
+.footContainer {
+  margin: 0 100px;
+  display: block;
+  width: 1000px;
+  justify-content: center;
+}
+.footContainer .navbawah {
+  display: block;
+  width: 250px;
+  margin: 10px auto;
+  padding-left: 100px;
+  gap: 5px;
+  float: left;
+  justify-content: left;
+}
+
+.footContainer .alamat {
+  color: #fff;
+  display: block;
+  padding: 10px;
+  float: left;
+  justify-content: center;
+}
+
+.footContainer ul li {
+  color: #fff;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 2px;
+  justify-content: center;
+}
+
+.footContainer li a {
+  padding: 2px;
+  color: white;
+  text-decoration: none;
+  line-height: 1.5;
+}
+.footContainer li a:hover {
+  background-color: #437899;
+  color: #606060;
+  border-radius: 5px;
+}
+/*
+.footContainer .alamat a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footContainer .alamat a:hover {
+  background-color: #437899;
+}
+
+.footContainer .alamat a:active {
+  color: #020048;
+}
+  */
+
+.copyright {
+  text-align: center;
+  color: #676767;
+  text-decoration: none;
+  line-height: 1.5;
+}
+.copyright::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #676767;
+  margin-bottom: 10px;
+}
+
+.sosmed {
+  width: 250px;
+  padding-left: 80px;
+  float: left;
+}
+
+.sosmed .insta a,
+.sosmed .whatsapp a {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  padding: 3px;
+}
+
+.sosmed .insta a:hover,
+.sosmed .whatsapp a:hover {
+  background-color: #437899;
+  color: #606060;
+  border-radius: 8px;
+}
+
+.sosmed .insta img,
+.sosmed .whatsapp img {
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+}
+/*
+.sosmed .whatsapp img {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}*/
+
+/*menghapus float*/
+
+.clear {
+  clear: both;
+}
